@@ -6,7 +6,7 @@ provider:
 
 functions:
   helloWorld:
-    handler: src/handler.helloWorld
+    handler: src/handler.lambdaHandler
     events:
       - http:
           path: hello-world
